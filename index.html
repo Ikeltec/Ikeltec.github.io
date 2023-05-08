@@ -13,13 +13,18 @@
         justify-content: center;
         margin-top: 50px;
       }
-      #headshots .headshot {
-        background-color: blue;
+      .headshot-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         margin: 0 20px;
+      }
+      .headshot {
+        background-color: blue;
         width: 200px;
         height: 200px;
       }
-      #headshots .description {
+      .description {
         text-align: center;
         margin-top: 10px;
       }
@@ -53,12 +58,18 @@
       </section>
       
       <section id="headshots">
-        <div class="headshot"></div>
-        <div class="headshot"></div>
-        <div class="headshot"></div>
-        <div class="description">Dr. John Doe</div>
-        <div class="description">Dr. Jane Smith</div>
-        <div class="description">Nurse Practitioner Sarah Lee</div>
+        <div class="headshot-container">
+          <div class="headshot"></div>
+          <div class="description">Dr. John Doe</div>
+        </div>
+        <div class="headshot-container">
+          <div class="headshot"></div>
+          <div class="description">Dr. Jane Smith</div>
+        </div>
+        <div class="headshot-container">
+          <div class="headshot"></div>
+          <div class="description">Nurse Practitioner Sarah Lee</div>
+        </div>
       </section>
     </main>
     
