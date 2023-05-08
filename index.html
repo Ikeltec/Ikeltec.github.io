@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Primecare  - St. Augustine, FL</title>
+    <title>Primecare - St. Augustine, FL</title>
     <meta name="description" content="Primecare is a medical office located in St. Augustine, FL.">
+    <style>
+      body {
+        background-image: url('your-background-image.jpg');
+        background-size: cover;
+        background-position: center;
+        color: white;
+      }
+      #headshots {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+      }
+      #headshots img {
+        border-radius: 50%;
+        margin: 0 20px;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+      }
+    </style>
   </head>
   <body>
     <header>
       <h1>Primecare - St. Augustine, FL</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact Us</a></li>
-        </ul>
-      </nav>
     </header>
     
     <main>
-      <section id="about">
-        <h2>About Us</h2>
-        <p>Primecare is a medical office located in St. Augustine, FL, specializing in cardiology and internal medicine. Our team of board-certified physicians, nurse practitioners, and other medical professionals provide high-quality medical care to patients of all ages. We prioritize preventive care and patient education, and strive to provide a welcoming and compassionate environment for all our patients.s, and physician assistants.</p>
-      </section>
-      
       <section id="services">
         <h2>Our Services</h2>
         <ul>
@@ -31,11 +39,10 @@
         </ul>
       </section>
       
-      <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Address: 2720 US Highway 1 south, St. Augustine, FL 32086</p>
-        <p>Phone: (904) 827-0078</p>
-        <p>Email: info@primecaremedical.com</p>
+      <section id="headshots">
+        <img src="doctor1.jpg" alt="Doctor 1">
+        <img src="doctor2.jpg" alt="Doctor 2">
+        <img src="provider1.jpg" alt="Provider 1">
       </section>
     </main>
     
